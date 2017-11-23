@@ -63,16 +63,6 @@ header {
       header .banner .top ol .weixin {
         margin-right: 16px; }
 
-.top_bottom {
-  width: 100%;
-  height: 225px; }
-  .top_bottom img {
-    width: 100%;
-    height: 100%; }
-
-section {
-  background: #f0f1f1; }
-
 footer {
   width: 100%;
   height: 83px;
@@ -114,106 +104,5 @@ footer {
           text-decoration: none;
           font-size: 12.8px;
           color: gray; }
-
-#box-lmh {
-  width: 100%;
-  background: #f0f1f1;
-  overflow: hidden; }
-
-#box-lmh > div:nth-of-type(2) {
-  display: none; }
-
-#box-lmh > div:nth-of-type(3) {
-  display: none; }
-
-#box-lmh > div:nth-of-type(4) {
-  display: none; }
-
-#box-lmh > div:nth-of-type(5) {
-  display: none; }
-
-#box-lmh > div {
-  width: 1100px;
-  margin: 0 auto; }
-
-#box-lmh > div > div {
-  width: 1100px;
-  height: 235px;
-  margin-bottom: 32px; }
-
-#box-lmh > div > div:nth-of-type(4) {
-  margin-bottom: 0; }
-
-#box-lmh > div > div > div {
-  width: 260px;
-  height: 235px;
-  background: white;
-  float: left;
-  margin-right: 20px; }
-  #box-lmh > div > div > div p {
-    width: 260px;
-    height: 155px; }
-    #box-lmh > div > div > div p img {
-      width: 100%;
-      height: 100%; }
-  #box-lmh > div > div > div #font-lmh {
-    height: 16px;
-    margin: 15px 0 19px 15px; }
-    #box-lmh > div > div > div #font-lmh a {
-      color: black;
-      font-size: 16px; }
-  #box-lmh > div > div > div #FONT-LMH {
-    height: 12px;
-    margin: 0 0 19px 15px; }
-    #box-lmh > div > div > div #FONT-LMH a {
-      color: #939292;
-      font-size: 12px; }
-
-#box-lmh > div > div > div:nth-of-type(4) {
-  margin: 0; }
-
-#xxk-lmh {
-  padding-top: 25px;
-  padding-bottom: 28px;
-  width: 1100px;
-  height: 26px;
-  margin: 0 auto; }
-
-#xxk-lmh > div {
-  width: 78px;
-  height: 26px;
-  text-align: center;
-  line-height: 26px;
-  font-size: 12px;
-  margin-right: 5px;
-  float: left;
-  background: white;
-  color: #636363; }
-
-#xxk-lmh .active {
-  background: #636363;
-  color: white; }
-
-#xxka-lmh {
-  width: 246px;
-  height: 120px;
-  margin: 0 auto; }
-
-#xxka-lmh > div {
-  width: 36px;
-  height: 36px;
-  text-align: center;
-  line-height: 36px;
-  font-size: 12px;
-  margin-right: 5px;
-  margin-top: 45px;
-  margin-bottom: 40px;
-  float: left;
-  background: white;
-  color: #636363; }
-
-#xxka-lmh .activea {
-  background: #dd4012;
-  color: white; }
 
 /*# sourceMappingURL=index.css.map */
