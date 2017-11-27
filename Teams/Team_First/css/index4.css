@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+header {
+  width: 100%;
+  height: 268px; }
+  header .banner {
+    width: 100%;
+    height: 48px;
+    background: #353535; }
+    header .banner .top_bottom {
+      width: 100%;
+      height: 218px;
+      position: relative; }
+      header .banner .top_bottom img {
+        width: 100%;
+        height: 100%; }
+      header .banner .top_bottom .ospan_zjy {
+        position: absolute;
+        bottom: 0;
+        display: block;
+        left: 0;
+        width: 100%;
+        height: 27px;
+        background: rgba(0, 0, 0, 0.3); }
+        header .banner .top_bottom .ospan_zjy span {
+          display: block;
+          line-height: 27px;
+          width: 1100px;
+          margin: 0 auto;
+          height: 27px;
+          color: white;
+          font-size: 13px; }
+    header .banner .top {
+      width: 1100px;
+      height: 48px;
+      margin: 0 auto; }
+      header .banner .top .top_left {
+        width: 184px;
+        height: 116px;
+        background: #DD4311;
+        position: absolute;
+        z-index: 999;
+        top: 0; }
+        header .banner .top .top_left img {
+          margin-top: 30px;
+          margin-left: 13px;
+          margin-bottom: 9px; }
+        header .banner .top .top_left p {
+          margin-top: 0;
+          font-size: 14.5px;
+          text-align: center;
+          color: #FFAC94; }
+      header .banner .top ul {
+        float: left;
+        overflow: hidden;
+        margin-left: 213px;
+        margin-right: 85px; }
+        header .banner .top ul li {
+          float: left;
+          width: 88px;
+          height: 48px;
+          line-height: 48px;
+          text-align: center; }
+          header .banner .top ul li a {
+            text-decoration: none;
+            color: #8B8B8B; }
+      header .banner .top .active {
+        background: #DD4311; }
+      header .banner .top ol li {
+        float: left;
+        height: 48px;
+        line-height: 48px; }
+        header .banner .top ol li img {
+          vertical-align: middle; }
+      header .banner .top ol .tel {
+        margin-right: 8px; }
+      header .banner .top ol .num {
+        margin-right: 20px; }
+      header .banner .top ol .qq {
+        margin-right: 16px; }
+      header .banner .top ol .weibo {
+        margin-right: 16px; }
+      header .banner .top ol .weixin {
+        margin-right: 16px; }
+
+.body {
+  width: 100%;
+  height: 5630px;
+  background: #F0F1F1;
+  padding-top: 46px; }
+
+.pmj {
+  width: 1100px;
+  height: 5630px;
+  margin: 0 auto; }
+  .pmj .pmj-left {
+    width: 200px;
+    height: 398px;
+    float: left;
+    overflow: hidden; }
+    .pmj .pmj-left ul {
+      width: 200px;
+      height: 398px;
+      overflow: hidden; }
+      .pmj .pmj-left ul li {
+        background: #000000;
+        color: #909090;
+        width: 166px;
+        padding-left: 34px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+        border-bottom: 1px solid gray; }
+      .pmj .pmj-left ul .active {
+        background: #DD4311;
+        color: white; }
+  .pmj .pmj-right {
+    width: 865px;
+    height: 5630px;
+    float: right; }
+    .pmj .pmj-right .pmj-baner1 {
+      display: block;
+      margin-top: 40px;
+      width: 865px;
+      height: 105px;
+      overflow: hidden; }
+      .pmj .pmj-right .pmj-baner1 img {
+        width: 865px;
+        height: 105px; }
+    .pmj .pmj-right .pmj-baner2 {
+      display: block;
+      margin-top: 20px;
+      width: 340px;
+      height: 80px;
+      overflow: hidden; }
+      .pmj .pmj-right .pmj-baner2 img {
+        width: 340px;
+        height: 80px; }
+    .pmj .pmj-right #ull {
+      width: 865px;
+      overflow: hidden; }
+      .pmj .pmj-right #ull li {
+        width: 865px;
+        overflow: hidden;
+        height: 80px;
+        margin-top: 20px; }
+        .pmj .pmj-right #ull li a {
+          display: block;
+          background: white;
+          float: left;
+          width: 165px;
+          height: 80px;
+          margin-right: 10px;
+          overflow: hidden;
+          text-align: center;
+          padding-top: 15px; }
+    .pmj .pmj-right #ul3 {
+      width: 865px;
+      overflow: hidden; }
+      .pmj .pmj-right #ul3 li {
+        width: 865px;
+        overflow: hidden;
+        height: 166px;
+        margin-top: 20px; }
+        .pmj .pmj-right #ul3 li a {
+          display: block;
+          background: white;
+          float: left;
+          width: 165px;
+          height: 164px;
+          overflow: hidden;
+          position: relative;
+          margin-right: 10px; }
+          .pmj .pmj-right #ul3 li a img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0; }
+          .pmj .pmj-right #ul3 li a p {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 135px;
+            height: 140px;
+            background: red;
+            color: white;
+            padding: 22px 16px 0px 16px;
+            overflow: hidden; }
+            .pmj .pmj-right #ul3 li a p span {
+              display: block;
+              margin-bottom: 12px; }
+            .pmj .pmj-right #ul3 li a p .span1 {
+              font-size: 16px;
+              margin-bottom: 8px; }
+            .pmj .pmj-right #ul3 li a p .span2, .pmj .pmj-right #ul3 li a p .span3 {
+              font-size: 8px; }
+    .pmj .pmj-right #ul2 {
+      width: 865px;
+      overflow: hidden; }
+      .pmj .pmj-right #ul2 li {
+        width: 865px;
+        overflow: hidden;
+        height: 212px;
+        margin-top: 20px; }
+        .pmj .pmj-right #ul2 li a {
+          display: block;
+          background: white;
+          float: left;
+          width: 165px;
+          height: 210px;
+          overflow: hidden;
+          position: relative;
+          margin-right: 10px; }
+          .pmj .pmj-right #ul2 li a img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0; }
+          .pmj .pmj-right #ul2 li a p {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 133px;
+            height: 186px;
+            background: red;
+            color: white;
+            padding: 24px 16px 0px 16px;
+            overflow: hidden; }
+            .pmj .pmj-right #ul2 li a p span {
+              display: block;
+              margin-bottom: 12px; }
+            .pmj .pmj-right #ul2 li a p .span1 {
+              font-size: 16px;
+              margin-bottom: 12px; }
+            .pmj .pmj-right #ul2 li a p .span2, .pmj .pmj-right #ul2 li a p .span3 {
+              font-size: 12px; }
+
+footer {
+  width: 100%;
+  height: 83px;
+  background: #353535;
+  overflow: hidden; }
+  footer .bottom {
+    width: 1100px;
+    height: 83px;
+    margin: 0 auto; }
+    footer .bottom .bottom_left img {
+      margin-top: 25px;
+      float: left; }
+    footer .bottom .bottom_right {
+      width: 610px;
+      height: 83px;
+      float: right; }
+      footer .bottom .bottom_right ul {
+        width: 610px;
+        height: 18px;
+        margin-top: 24px;
+        margin-bottom: 8px; }
+        footer .bottom .bottom_right ul li {
+          width: 58px;
+          height: 18px;
+          text-align: center;
+          line-height: 18px;
+          margin-left: 18px;
+          float: right;
+          font-size: 14.5px; }
+          footer .bottom .bottom_right ul li a {
+            text-decoration: none;
+            color: #999999;
+            font-size: 13px; }
+          footer .bottom .bottom_right ul li .fukuan {
+            margin-left: 18px; }
+      footer .bottom .bottom_right p {
+        text-align: right; }
+        footer .bottom .bottom_right p a {
+          text-decoration: none;
+          font-size: 12.8px;
+          color: gray; }
+
+/*# sourceMappingURL=index4.css.map */
